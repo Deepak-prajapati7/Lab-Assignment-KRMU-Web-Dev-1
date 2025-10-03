@@ -1,0 +1,125 @@
+<!--
+  Section: Personal Portfolio Website
+  Project: Lab Assignment 1 - Web Dev I
+  Page: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi! I am a web developer passionate about creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="/profilepic.jpg"
+                alt="Profile picture of [Your Name]" height="200" width="200">
+            <p>I am a creative web developer skilled in HTML, CSS, and JavaScript. I love building projects that make an
+                impact.</p>
+        </section>
+
+        <section id="projects">
+            <h2> My Projects</h2>
+            <ul>
+                <li>
+                    <article>
+                        <p> <b> PORTFOLIO WEBSITE :</b> simple todo app built using vanilla JavaScript.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <p> <b> Medium Clone:</b>A responsive personal blog website with clean design.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <p><b> Birthday card</b> A simple birthday card webpage designed with html structure and styling
+                            css</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <p><b> User Form:</b> A form webpage with fileds like name, email,messgaes for practicing form
+                            handling</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+
+        <h2>Technical Skills</h2>
+        <table border="1" cellpadding="5" cellspacing="1">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post" aria-label="Contact form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                <br>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> do not copy my code be careful!</p>
+    </footer>
+</body>
+
+</html>
