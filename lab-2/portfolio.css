@@ -1,0 +1,139 @@
+header{
+  position: sticky;
+  padding: 20px;
+  top:0;
+}
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    color: #333;
+}
+
+#hero {
+    text-align: center;
+    background-color: rgb(68, 102, 227);
+    color: rgb(255, 254, 254)
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+
+
+}
+
+#about {
+    text-align: center;
+
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#centre-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(68, 102, 227);
+    height: 100px;
+    width: 700px;
+}
+
+#centre-table th {
+    background-color: rgb(68, 102, 227);
+    color: white;
+}
+
+#projects {
+    text-align: center;
+}
+
+
+#projects h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Remove list bullets */
+#project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Project box styling */
+.project-box {
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+
+}
+
+/* Project title styling */
+.project-box h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#bottom{
+    text-align: center;
+    color: rgb(68, 102, 227);
+    background-color: rgb(68, 102, 227);
+}
+.contact-container {
+    text-align: center; 
+}
+.contact-container {
+  text-align: center;
+}
+
+/* Form styling */
+.contact-form {
+  margin-top: 10px;
+}
+
+.contact-form table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 2px solid #0056d2;
+  background-color: #fff;
+}
+
+.contact-form td {
+  border: 1px solid #0056d2;
+  padding: 10px;
+}
+
+/* Input and textarea styling */
+.contact-form input,
+.contact-form textarea {
+  width: 250px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Button styling */
+.contact-form button {
+  background-color: #0056d2;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.contact-form button:hover {
+  background-color: #003c99;
+}
+
+.btn-row {
+  text-align: center;
+}
