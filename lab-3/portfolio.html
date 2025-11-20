@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Portfolio — Lab 3</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="brand">
+        <div class="logo">DP</div>
+        <div>
+          <div class="name">Deepak Prajapat</div>
+          <div class="subtitle">Student / Web Dev I</div>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+       
+    </header>
+
+    <main class="hero">
+      <div class="hero-inner">
+        <div class="hero-grid">
+
+          <div class="intro">
+            <h1>Hi, I'm <span class="title-accent">Deepak</span></h1>
+            <div class="role">Full Stack Developer</div>
+
+            <p class="desc">
+              I build modern responsive websites using Flexbox, Grid, media queries, and CSS animations.
+            </p>
+
+            <div class="cta-row">
+              <button class="btn primary">Hire / Contact</button>
+              <a class="btn" href="#projects">See Projects</a>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <img src="/WhatsApp Image 2025-11-05 at 10.29.30 AM.jpeg" alt="My Photo" height = "300px" width="300px">
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am a B.Tech CSE Student (AI & ML). This website demonstrates Flexbox, CSS Grid, responsive design, animations and hover effects.
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><strong>HTML & CSS</strong></div>
+          <div class="skill-card"><strong>JavaScript</strong></div>
+          <div class="skill-card"><strong>Python</strong></div>
+          <div class="skill-card"><strong>Git & GitHub</strong></div>
+          <div class="skill-card"><strong>Design</strong></div>
+          <div class="skill-card"><strong>Accessibility</strong></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <strong>Portfolio — Lab 3</strong>
+            <p>Responsive portfolio with Flexbox, Grid, and animations.</p>
+          </div>
+
+          <div class="project">
+            <strong>FeedForward</strong>
+            <p>Hackathon Food Donation App (Python).</p>
+          </div>
+
+          <div class="project">
+            <strong>GradeBook Analyzer</strong>
+            <p>Console tool for grade statistics.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Message..." required></textarea>
+          <button class="btn primary">Send Message</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>© 2025 Deepak — Built for Lab 3</p>
+      </footer>
+    </main>
+
+  </div>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
